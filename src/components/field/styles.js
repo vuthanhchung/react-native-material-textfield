@@ -30,7 +30,7 @@ export default StyleSheet.create({
   row: {
     flex: 1,
     flexDirection: 'row',
-    alignItems: 'flex-end',
+    alignItems: 'center',
   },
 
   stack: {
