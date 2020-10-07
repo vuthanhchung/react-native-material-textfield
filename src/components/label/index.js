@@ -88,12 +88,12 @@ export default class Label extends PureComponent {
 
     let containerStyle = {
       transform: [
-        // {
-        //   scale: labelAnimation.interpolate({
-        //     inputRange: [0, 1],
-        //     outputRange: [1, activeFontSize / fontSize],
-        //   }),
-        // },
+        {
+          scale: labelAnimation.interpolate({
+            inputRange: [0, 1],
+            outputRange: [1, activeFontSize / fontSize],
+          }),
+        },
         {
           translateY: labelAnimation.interpolate({
             inputRange: [0, 1],
